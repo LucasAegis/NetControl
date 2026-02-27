@@ -5,7 +5,7 @@
 ## 📖 The Story
 I am a communication systems architect. In 2024, while drafting a 70,000-word top-secret patent, I realized that keyboards and background services are constantly "phoning home." To protect my intellectual property, I built the **Aegis Offline AI Keyboard** for mobile.
 
-But my PC remained a battlefield of "leaky" apps. I tested every network blocker on the market—they were all bloated, complex, or felt like they were snooping themselves.
+But my PC remained a battlefield of "leaky" apps. I tested every network blocker on the market—they were all bloated, complex, or felt like they were snooping themselves. 
 
 **So, I built this: NetControl.** A tiny (4MB), 100% offline, portable network control center. It’s the "Physical Toggle" Windows should have had.
 
@@ -34,9 +34,10 @@ Here is a look at how I manage "leaky" background services. Once blocked, they a
 
 ## 🚀 How to Use
 1. Download `NetControl.exe` from the [Releases](https://github.com/LucasAegis/NetControl/releases) page.
-2. Double-click and grant Administrator privileges (Required to modify Windows Firewall rules).
-3. **Zero Configuration Needed:** You don't need to do anything for apps you want to allow.
-4. **Target & Kill:** Simply find the app you want to silence, click the **Red Button**, and it will automatically drop to the bottom of the list and stay blocked. Keep everything else as it is.
+2. **Regarding Security Flags:** Since this is an unsigned tool that modifies system firewall rules, Windows Defender may flag it as a threat. **I have open-sourced 100% of the code.** If you decide to use this tool, please **review the source code yourself**. Once you are satisfied with its integrity, you can manually "Allow on device" to let it run.
+3. Double-click and grant Administrator privileges (Required to modify Windows Firewall rules).
+4. **Zero Configuration Needed:** You don't need to do anything for apps you want to allow.
+5. **Target & Kill:** Simply find the app you want to silence, click the **Red Button**, and it will automatically drop to the bottom of the list and stay blocked. Keep everything else as it is.
 
 ---
 
