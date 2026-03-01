@@ -34,9 +34,9 @@ Here is a look at how I manage "leaky" background services. Once blocked, they a
 
 ## 🚀 How to Use
 1. **Download:** Get `NetControl_v1.0.0_Portable.zip` from the [Releases](https://github.com/LucasAegis/NetControl/releases) page.
-2. **Regarding Security Flags (False Positive):** * As an unsigned tool that modifies system firewall rules, Windows Defender may flag it as `Trojan:Win32/Wacatac.B!ml`.
-   * **Latest Status:** A False Positive report has been officially submitted to Microsoft (Submission ID: `f1e70c43-2d84-41e4-bcda-b52dd98c1872`).
-   * **Immediate Workaround:** To run it now, please add the file or its download folder to your **Windows Security Exclusions**, or manually select **"Allow on device"** in your protection history.
+2. **Regarding Security Flags (False Positive):** * As an unsigned tool that modifies system firewall rules, Windows Defender may initially flag it as a threat.
+   * **✅ Official Security Clearance:** This tool has been manually reviewed and **officially whitelisted by Microsoft** (Submission ID: `f1e70c43-2d84-41e4-bcda-b52dd98c1872`). 
+   * **Workaround:** If your system still flags it, please manually update your Windows Defender definitions, or add the download folder to your **Windows Security Exclusions**.
    * **Review:** I have open-sourced 100% of the code. Please **review the source code yourself** to verify its integrity.
 3. **Run:** Double-click and grant Administrator privileges.
 4. **Target & Kill:** Simply find the app you want to silence, click the **Red Button**, and it will stay blocked at the bottom of the list.
